@@ -5,7 +5,7 @@ SHEETY_ENDPOINT = os.environ["ENV_SHEETY_ENDPOINT"]
 
 MY_TOKEN = os.environ["ENV_SHEETY_TOKEN"]
 
-CUSTOMERS_ENDPOINT = "https://api.sheety.co/05cef1f29d6db624cbd35e9f808553ae/flightDeals/users"
+CUSTOMERS_ENDPOINT = ["ENV_CUSTOMERS_ENDPOINT"]
 
 HEADERS = {
             "Authorization": f"Bearer {MY_TOKEN}"
